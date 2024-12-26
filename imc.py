@@ -32,7 +32,7 @@ def main():
         
         # Converte altura para metros, se necessário
         if "." in altura:
-            altura = float(altura)  # Já está em metros
+            altura = float(altura)  
         else:
             altura = float(altura) / 100  # Converte de centímetros para metros
 
